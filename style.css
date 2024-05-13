@@ -1,4 +1,3 @@
-/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -8,63 +7,65 @@
 /* Body styles */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(160, 191, 224);
-  color: rgb(74, 85, 162);
+  background-color: #A0BFE0;
+  color: #4A55A2;
+  margin: 0;
+  padding: 0;
 }
 
 /* Hero section styles */
 .hero {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2rem;
+  background-color: #C5DFF8;
+  color: #4A55A2;
 }
 
 /* Title styles */
 .title {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 2rem;
-  color: rgb(74, 85, 162);
+  margin-bottom: 1rem;
 }
 
 /* Details styles */
-/* Details styles */
 .details {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 2rem;
 }
 
 .detail {
   font-size: 1.6rem;
-  color: rgb(120, 149, 203);
+  margin: 0.5rem;
+  color: #7895CB;
 }
 
 .detail span {
   font-weight: bold;
-  color: rgb(197, 223, 248);
+  color: #4A55A2;
 }
-
 
 /* Container styles */
 .container {
   max-width: 600px;
-  background-color: #f9f9f9;
-  border: 2px solid #e0e0e0;
+  background-color: #FFF;
+  border: 2px solid #E0E0E0;
   border-radius: 10px;
   padding: 2rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Joke styles */
 .joke p {
   font-size: 2rem;
   line-height: 2.8rem;
-  color: #4caf50;
+  color: #4CAF50;
 }
 
 /* Button styles */
@@ -72,8 +73,8 @@ button {
   margin-top: 2rem;
   padding: 1.5rem 3rem;
   font-size: 1.8rem;
-  background-color: #4caf50;
-  color: #fff;
+  background-color: #4CAF50;
+  color: #FFF;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -81,5 +82,5 @@ button {
 }
 
 button:hover {
-  background-color: #388e3c;
+  background-color: #388E3C;
 }
